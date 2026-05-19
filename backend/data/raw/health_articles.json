@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Benefits of Banana",
+    "content": "Bananas are rich in potassium, vitamin B6, and fiber. They help support heart health, digestion, and energy levels.",
+    "source": "Healthline",
+    "category": "Nutrition"
+  },
+  {
+    "title": "High Protein Vegetarian Foods",
+    "content": "Good vegetarian protein sources include lentils, chickpeas, tofu, paneer, Greek yogurt, quinoa, and soybeans.",
+    "source": "Harvard Nutrition Source",
+    "category": "Protein"
+  },
+  {
+    "title": "Hydration Benefits",
+    "content": "Proper hydration helps regulate body temperature, improve digestion, maintain energy, and support brain function.",
+    "source": "CDC",
+    "category": "Hydration"
+  }
+]

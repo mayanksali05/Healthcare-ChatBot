@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Node
+node_modules/
+
+# Build
+dist/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# ChromaDB
+backend/database/chroma_db/
+
+# Data
