@@ -1,11 +1,18 @@
 import { useState } from "react";
 
 function App() {
+
   const [message, setMessage] = useState("");
+
   const [reply, setReply] = useState("");
 
+  const [sources, setSources] = useState([]);
+
+
   const sendMessage = async () => {
+
     try {
+
       const response = await fetch("http://127.0.0.1:5000/chat", {
         method: "POST",
         headers: {
@@ -21,13 +28,21 @@ function App() {
       console.log(data);
 
       setReply(data.reply || data.error);
+
+      setSources(data.sources || []);
+
     } catch (error) {
+
       console.error(error);
+
     }
   };
 
+
   return (
+
     <div style={{ padding: "40px" }}>
+
       <h1>Healthcare ChatBot</h1>
 
       <input
@@ -46,11 +61,54 @@ function App() {
         Send
       </button>
 
+
       <div style={{ marginTop: "20px" }}>
+
         <strong>Bot Reply:</strong>
+
         <p>{reply}</p>
+
       </div>
+
+
+      <div style={{ marginTop: "30px" }}>
+
+        <h3>Sources</h3>
+
+        {
+          sources.map((source, index) => (
+
+            <div
+              key={index}
+              style={{
+                border: "1px solid gray",
+                padding: "10px",
+                marginBottom: "10px",
+                borderRadius: "8px"
+              }}
+            >
+
+              <p>
+                <strong>Title:</strong> {source.title}
+              </p>
+
+              <p>
+                <strong>Source:</strong> {source.source}
+              </p>
+
+              <p>
+                <strong>Category:</strong> {source.category}
+              </p>
+
+            </div>
+
+          ))
+        }
+
+      </div>
+
     </div>
+
   );
 }
 
