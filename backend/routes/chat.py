@@ -3,6 +3,11 @@ import ollama
 
 from rag.retriever import retrieve_context
 
+from utils.memory import (
+    add_message,
+    get_recent_messages
+)
+
 chat_bp = Blueprint("chat", __name__)
 
 
@@ -13,6 +18,7 @@ def chat():
         data = request.get_json()
 
         user_message = data.get("message", "")
+        add_message("user", user_message)
 
         # Retrieve relevant context
         retrieval_result = retrieve_context(user_message)
@@ -20,6 +26,24 @@ def chat():
         retrieved_context = retrieval_result["context"]
 
         sources = retrieval_result["sources"]
+
+        # No relevant context found
+        if not retrieved_context.strip():
+
+            return jsonify({
+                "reply": "I do not have enough trusted information.",
+                "sources": []
+            })
+        
+        recent_messages = get_recent_messages()
+
+        conversation_context = ""
+
+        for msg in recent_messages:
+
+            conversation_context += (
+                f"{msg['role']}: {msg['content']}\n"
+            )
 
         # Create grounded prompt
         prompt = f"""
@@ -33,12 +57,17 @@ def chat():
         "I do not have enough trusted information."
         - Keep answers short and factual.
 
-Healthcare Context:
-{retrieved_context}
+        CONVERSATION HISTORY:
+        {conversation_context}
 
-User Question:
-{user_message}
-"""
+        Healthcare Context:
+        {retrieved_context}
+
+        User Question:
+        {user_message}
+
+        ANSWER:
+        """
 
         response = ollama.chat(
             model="phi3:mini",
@@ -55,6 +84,7 @@ User Question:
         )
 
         bot_reply = response["message"]["content"]
+        add_message("assistant", bot_reply)
 
         return jsonify({
             "reply": bot_reply,
