@@ -4,7 +4,10 @@ from flask_cors import CORS
 from routes.chat import chat_bp
 
 app = Flask(__name__)
-CORS(app)
+CORS(
+    app,
+    expose_headers=["X-Sources"]
+)
 
 # Register routes
 app.register_blueprint(chat_bp)

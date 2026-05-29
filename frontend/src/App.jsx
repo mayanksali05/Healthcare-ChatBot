@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 function App() {
 
@@ -11,33 +12,63 @@ function App() {
 
   const sendMessage = async () => {
 
-    try {
+  setReply("");
+  setSources([]);
 
-      const response = await fetch("http://127.0.0.1:5000/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          message: message,
-        }),
-      });
-
-      const data = await response.json();
-
-      console.log(data);
-
-      setReply(data.reply || data.error);
-
-      setSources(data.sources || []);
-
-    } catch (error) {
-
-      console.error(error);
-
+  const response = await fetch(
+    "http://127.0.0.1:5000/chat",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message: message,
+      }),
     }
-  };
+  );
+  
 
+const sourceHeader = response.headers.get("X-Sources");
+
+if (sourceHeader) {
+
+  try {
+
+    const parsedSources = JSON.parse(sourceHeader);
+
+    setSources(parsedSources);
+
+  } catch (error) {
+
+    console.error(error);
+
+  }
+}
+
+console.log(response.headers);
+console.log(response.headers.get("X-Sources"));
+  const reader = response.body.getReader();
+
+  const decoder = new TextDecoder();
+
+  let done = false;
+
+  let accumulatedResponse = "";
+
+  while (!done) {
+
+    const result = await reader.read();
+
+    done = result.done;
+
+    const chunk = decoder.decode(result.value || new Uint8Array());
+
+    accumulatedResponse += chunk;
+
+    setReply(accumulatedResponse);
+  }
+};
 
   return (
 
@@ -66,7 +97,51 @@ function App() {
 
         <strong>Bot Reply:</strong>
 
-        <p>{reply}</p>
+        <div
+          style={{
+            textAlign: "left",
+            maxWidth: "900px",
+            margin: "0 auto",
+            lineHeight: "1.8"
+        }}
+      >
+        <ReactMarkdown
+          components={{
+
+            h2: ({node, ...props}) => (
+              <h2
+                style={{
+                  marginTop: "25px",
+                  marginBottom: "10px",
+                  color: "#ffffff"
+                }}
+                {...props}
+              />
+            ),
+
+            li: ({node, ...props}) => (
+              <li
+                style={{
+                  marginBottom: "10px"
+                }}
+                {...props}
+              />
+            ),
+
+            p: ({node, ...props}) => (
+              <p
+                style={{
+                  marginBottom: "15px"
+                }}
+                {...props}
+              />
+            )
+
+          }}
+        >
+          {reply}
+        </ReactMarkdown>
+      </div>
 
       </div>
 

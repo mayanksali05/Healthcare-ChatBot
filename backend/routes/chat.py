@@ -1,5 +1,6 @@
 from flask import Blueprint, request, jsonify
 import ollama
+import json 
 
 from rag.retriever import retrieve_context
 
@@ -7,6 +8,8 @@ from utils.memory import (
     add_message,
     get_recent_messages
 )
+from safety.query_classifier import classify_query
+from flask import Response
 
 chat_bp = Blueprint("chat", __name__)
 
@@ -19,6 +22,43 @@ def chat():
 
         user_message = data.get("message", "")
         add_message("user", user_message)
+        query_type = classify_query(user_message)
+
+        # Emergency query handling
+        if query_type == "emergency":
+
+            return jsonify({
+                "reply": (
+                    "This may be a medical emergency. "
+                    "Please contact emergency services "
+                    "or a licensed healthcare professional immediately."
+                ),
+                "sources": []
+            })
+
+
+        # Diagnosis prevention
+        if query_type == "diagnosis":
+
+            return jsonify({
+                "reply": (
+                    "I cannot diagnose medical conditions. "
+                    "Please consult a licensed healthcare professional."
+                ),
+                "sources": []
+            })
+
+
+        # Medication safety
+        if query_type == "medication":
+
+            return jsonify({
+                "reply": (
+                    "I cannot provide medication dosage advice. "
+                    "Please consult a doctor or pharmacist."
+                ),
+                "sources": []
+            })
 
         # Retrieve relevant context
         retrieval_result = retrieve_context(user_message)
@@ -57,6 +97,12 @@ def chat():
         "I do not have enough trusted information."
         - Keep answers short and factual.
 
+        FORMAT RULES:
+        - Keep response concise.
+        - Use simple language.
+        - Use bullet points when appropriate.
+        - Structure response clearly.
+
         CONVERSATION HISTORY:
         {conversation_context}
 
@@ -66,30 +112,58 @@ def chat():
         User Question:
         {user_message}
 
-        ANSWER:
+        ANSWER FORMAT:
+
+        ## Summary
+        Short explanation.
+
+        ## Key Points
+        - Point 1
+        - Point 2
+        - Point 3
+
+        ## Important Note
+        Short healthcare caution if relevant.
         """
 
-        response = ollama.chat(
-            model="phi3:mini",
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
+        def generate_stream():
+
+            stream = ollama.chat(
+                model="phi3:mini",
+                messages=[
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                stream=True,
+                options={
+                    "num_predict": 120,
+                    "temperature": 0.3
                 }
-            ],
-            options={
-                "num_predict": 120,
-                "temperature": 0.3
-            }
+            )
+
+            full_response = ""
+
+            for chunk in stream:
+
+                content = chunk["message"]["content"]
+
+                full_response += content
+
+                yield content
+
+            add_message("assistant", full_response)
+
+
+        response = Response(
+            generate_stream(),
+            content_type="text/plain"
         )
 
-        bot_reply = response["message"]["content"]
-        add_message("assistant", bot_reply)
+        response.headers["X-Sources"] = json.dumps(sources)
 
-        return jsonify({
-            "reply": bot_reply,
-            "sources": sources
-        })
+        return response
 
     except Exception as e:
 
