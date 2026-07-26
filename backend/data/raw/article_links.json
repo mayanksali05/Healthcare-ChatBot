@@ -1,68 +1,1052 @@
 [
   {
-    "url": "https://www.healthline.com/nutrition/11-proven-benefits-of-bananas",
-    "source": "Healthline",
-    "category": "Nutrition"
+    "id": "american-heart-association--healthy-food-facts",
+    "url": "https://www.heart.org/en/healthy-living/healthy-eating/healthy-food-facts",
+    "source": "American Heart Association",
+    "category": "Healthy Diet",
+    "title": "Healthy Food Facts"
   },
   {
-    
-    "url": "https://www.healthline.com/nutrition/healthy-eating-refresh-letter-from-the-editor",
-    "source": "Healthline",
-    "category": "Nutrition"
+    "id": "harvard-health--the-right-plant-based-diet-for-you",
+    "url": "https://www.health.harvard.edu/staying-healthy/the-right-plant-based-diet-for-you",
+    "source": "Harvard Health",
+    "category": "Healthy Diet",
+    "title": "The right plant-based diet for you"
   },
   {
-    "url": "https://www.healthline.com/nutrition/protein-for-vegans-vegetarians",
-    "source": "Healthline",
-    "category": "Protein"
+    "id": "harvard-nutrition-source--healthy-eating-plate",
+    "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/",
+    "source": "Harvard Nutrition Source",
+    "category": "Healthy Diet",
+    "title": "Healthy Eating Plate"
   },
   {
-    "url": "https://www.healthline.com/nutrition/27-health-and-nutrition-tips",
+    "id": "healthline--staple-foods-to-make-healthy-eating-easy-all-week-long",
+    "url": "https://www.healthline.com/nutrition/staple-foods-to-make-healthy-eating-easy-all-week-long",
     "source": "Healthline",
-    "category": "General Health"
+    "category": "Healthy Diet",
+    "title": "Meal Prep Like a Pro With These 15 Staple Foods"
   },
   {
-    "url": "https://www.healthline.com/nutrition/foods-high-in-vitamin-c",
+    "id": "healthline--joys-of-healthy-eating",
+    "url": "https://www.healthline.com/nutrition/joys-of-healthy-eating",
     "source": "Healthline",
-    "category": "Vitamins"
+    "category": "Healthy Diet",
+    "title": "Healthy Eating Is Human: Joys, Challenges, and 3 Things You Can Do"
   },
   {
-    "url": "https://www.healthline.com/nutrition/10-benefits-of-exercise",
-    "source": "Healthline",
-    "category": "Fitness"
-  },
-  {
-    "url": "https://www.medicalnewstoday.com/articles/270202",
+    "id": "medical-news-today--intermittent-fasting-and-hypothyroidism",
+    "url": "https://www.medicalnewstoday.com/articles/intermittent-fasting-and-hypothyroidism",
     "source": "Medical News Today",
-    "category": "Hydration"
+    "category": "Healthy Diet",
+    "title": "Intermittent fasting and hypothyroidism: Effects and safety"
   },
   {
-    "url": "https://www.medicalnewstoday.com/articles/322268",
+    "id": "nhs--the-eatwell-guide",
+    "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+    "source": "NHS",
+    "category": "Healthy Diet",
+    "title": "The Eatwell Guide"
+  },
+  {
+    "id": "nia--healthy-eating-you-age-know-your-food-groups",
+    "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/healthy-eating-you-age-know-your-food-groups",
+    "source": "NIA",
+    "category": "Healthy Diet",
+    "title": "Healthy Eating As You Age: Know Your Food Groups"
+  },
+  {
+    "id": "who--healthy-diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "source": "WHO",
+    "category": "Healthy Diet",
+    "title": "Healthy diet"
+  },
+  {
+    "id": "harvard-health--nutrition",
+    "url": "https://www.health.harvard.edu/topics/nutrition",
+    "source": "Harvard Health",
+    "category": "Nutrition",
+    "title": "Nutrition"
+  },
+  {
+    "id": "harvard-nutrition-source--healthy-food-environment",
+    "url": "https://nutritionsource.hsph.harvard.edu/healthy-food-environment/",
+    "source": "Harvard Nutrition Source",
+    "category": "Nutrition",
+    "title": "Healthy Food Environment"
+  },
+  {
+    "id": "harvard-nutrition-source--healthy-schools",
+    "url": "https://nutritionsource.hsph.harvard.edu/healthy-schools/",
+    "source": "Harvard Nutrition Source",
+    "category": "Nutrition",
+    "title": "Healthy Schools"
+  },
+  {
+    "id": "healthline--7-ways-to-prevent-a-hangover",
+    "url": "https://www.healthline.com/nutrition/7-ways-to-prevent-a-hangover",
+    "source": "Healthline",
+    "category": "Nutrition",
+    "title": "How to Prevent a Hangover: 7 Evidence-Based Tips"
+  },
+  {
+    "id": "healthline--how-to-eat-healthy-guide",
+    "url": "https://www.healthline.com/nutrition/how-to-eat-healthy-guide",
+    "source": "Healthline",
+    "category": "Nutrition",
+    "title": "Healthy Eating 101: Nutrients, Macros, Tips, and More"
+  },
+  {
+    "id": "medical-news-today--empty-calories",
+    "url": "https://www.medicalnewstoday.com/articles/empty-calories",
     "source": "Medical News Today",
-    "category": "Sleep"
+    "category": "Nutrition",
+    "title": "What are empty calories? Definition, foods, and more"
   },
   {
-    "url": "https://www.medicalnewstoday.com/articles/323446",
+    "id": "niddk--changing-habits-better-health",
+    "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health",
+    "source": "NIDDK",
+    "category": "Nutrition",
+    "title": "Changing Your Habits for Better Health"
+  },
+  {
+    "id": "sleep-foundation--night-eating-syndrome",
+    "url": "https://www.sleepfoundation.org/nutrition/night-eating-syndrome",
+    "source": "Sleep Foundation",
+    "category": "Nutrition",
+    "title": "Night Eating Syndrome: Symptoms, Causes, and Treatments"
+  },
+  {
+    "id": "who--malnutrition",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/malnutrition",
+    "source": "WHO",
+    "category": "Nutrition",
+    "title": "Fact sheets - Malnutrition"
+  },
+  {
+    "id": "harvard-health--the-best-foods-for-vitamins-and-minerals",
+    "url": "https://www.health.harvard.edu/staying-healthy/the-best-foods-for-vitamins-and-minerals",
+    "source": "Harvard Health",
+    "category": "Food & Nutrients",
+    "title": "The best foods for vitamins and minerals"
+  },
+  {
+    "id": "harvard-nutrition-source--salt-and-sodium",
+    "url": "https://nutritionsource.hsph.harvard.edu/salt-and-sodium/",
+    "source": "Harvard Nutrition Source",
+    "category": "Food & Nutrients",
+    "title": "Salt and Sodium"
+  },
+  {
+    "id": "healthline--plant-based-protein-the-best-the-worst-and-everything-in-bet",
+    "url": "https://www.healthline.com/nutrition/plant-based-protein-the-best-the-worst-and-everything-in-between",
+    "source": "Healthline",
+    "category": "Food & Nutrients",
+    "title": "Plant-Based Protein: Health and Environmental Benefits, Plus Tips"
+  },
+  {
+    "id": "healthychildren-aap--raw-milk-dangers-what-parents-need-to-know",
+    "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Raw-Milk-Dangers-What-Parents-Need-to-Know.aspx",
+    "source": "HealthyChildren (AAP)",
+    "category": "Food & Nutrients",
+    "title": "Raw Milk: What Parents Need to Know About the Risk"
+  },
+  {
+    "id": "medical-news-today--does-sugar-cause-acne",
+    "url": "https://www.medicalnewstoday.com/articles/does-sugar-cause-acne",
     "source": "Medical News Today",
-    "category": "Mental Health"
+    "category": "Food & Nutrients",
+    "title": "Does sugar cause acne? The link explained"
   },
   {
-    "url": "https://www.webmd.com/diet/health-benefits-garlic",
-    "source": "WebMD",
-    "category": "Nutrition"
+    "id": "nhs--how-to-cut-down-on-sugar-in-your-diet",
+    "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/how-to-cut-down-on-sugar-in-your-diet/",
+    "source": "NHS",
+    "category": "Food & Nutrients",
+    "title": "How to cut down on sugar in your diet"
   },
   {
-    "url": "https://www.webmd.com/diet/health-benefits-green-tea",
-    "source": "WebMD",
-    "category": "Nutrition"
+    "id": "office-on-women-s-health--folic-acid",
+    "url": "https://womenshealth.gov/a-z-topics/folic-acid",
+    "source": "Office on Women's Health",
+    "category": "Food & Nutrients",
+    "title": "Folic acid"
   },
   {
-    "url": "https://www.cdc.gov/nutrition/about-nutrition/index.html",
+    "id": "sleep-foundation--magnesium",
+    "url": "https://www.sleepfoundation.org/magnesium",
+    "source": "Sleep Foundation",
+    "category": "Food & Nutrients",
+    "title": "Magnesium for Sleep: Benefits, Types, Dosage, and Side Effects"
+  },
+  {
+    "id": "who--sugars-and-dental-caries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
+    "source": "WHO",
+    "category": "Food & Nutrients",
+    "title": "Sugars and dental caries"
+  },
+  {
+    "id": "harvard-nutrition-source--staying-active",
+    "url": "https://nutritionsource.hsph.harvard.edu/staying-active/",
+    "source": "Harvard Nutrition Source",
+    "category": "Fitness & Exercise",
+    "title": "Staying Active"
+  },
+  {
+    "id": "healthline--healthy-lifestyle-benefits",
+    "url": "https://www.healthline.com/health/fitness-nutrition/healthy-lifestyle-benefits",
+    "source": "Healthline",
+    "category": "Fitness & Exercise",
+    "title": "Healthy Lifestyle Benefits: What They Are, How to Get Them & More"
+  },
+  {
+    "id": "medical-news-today--examples-of-vigorous-physical-activity",
+    "url": "https://www.medicalnewstoday.com/articles/examples-of-vigorous-physical-activity",
+    "source": "Medical News Today",
+    "category": "Fitness & Exercise",
+    "title": "The benefits and examples of vigorous physical activity"
+  },
+  {
+    "id": "medical-news-today--exercises-for-restless-leg-syndrome",
+    "url": "https://www.medicalnewstoday.com/articles/exercises-for-restless-leg-syndrome",
+    "source": "Medical News Today",
+    "category": "Fitness & Exercise",
+    "title": "What exercises can help with restless leg syndrome (RLS)?"
+  },
+  {
+    "id": "nhs--exercise-health-benefits",
+    "url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+    "source": "NHS",
+    "category": "Fitness & Exercise",
+    "title": "Benefits of exercise"
+  },
+  {
+    "id": "nhs--why-sitting-too-much-is-bad-for-us",
+    "url": "https://www.nhs.uk/live-well/exercise/why-sitting-too-much-is-bad-for-us/",
+    "source": "NHS",
+    "category": "Fitness & Exercise",
+    "title": "Why we should sit less"
+  },
+  {
+    "id": "nia--exercising-chronic-conditions",
+    "url": "https://www.nia.nih.gov/health/exercise-and-physical-activity/exercising-chronic-conditions",
+    "source": "NIA",
+    "category": "Fitness & Exercise",
+    "title": "Exercising With Chronic Conditions"
+  },
+  {
+    "id": "sleep-foundation--physical-activity",
+    "url": "https://www.sleepfoundation.org/physical-activity",
+    "source": "Sleep Foundation",
+    "category": "Fitness & Exercise",
+    "title": "Physical Activity & Sleep: How Sleep Affects the Body"
+  },
+  {
+    "id": "who--physical-activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "source": "WHO",
+    "category": "Fitness & Exercise",
+    "title": "Physical activity"
+  },
+  {
+    "id": "harvard-nutrition-source--mindful-eating",
+    "url": "https://nutritionsource.hsph.harvard.edu/mindful-eating/",
+    "source": "Harvard Nutrition Source",
+    "category": "Mental Health",
+    "title": "Mindful Eating"
+  },
+  {
+    "id": "healthline--diet-culture",
+    "url": "https://www.healthline.com/health/mental-health/diet-culture",
+    "source": "Healthline",
+    "category": "Mental Health",
+    "title": "The Problem with Diet Culture"
+  },
+  {
+    "id": "healthychildren-aap--childrens-mental-health-building-resilience-and-emotional-we",
+    "url": "https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/childrens-mental-health-building-resilience-and-emotional-well-being.aspx",
+    "source": "HealthyChildren (AAP)",
+    "category": "Mental Health",
+    "title": "Children's Mental Health: Shifting Focus From What's Wrong to What's Strong"
+  },
+  {
+    "id": "medical-news-today--one-dose-psilocybin-reshape-brain-activity-support-mental-he",
+    "url": "https://www.medicalnewstoday.com/articles/one-dose-psilocybin-reshape-brain-activity-support-mental-health-study-neuroplasticity",
+    "source": "Medical News Today",
+    "category": "Mental Health",
+    "title": "Psilocybin: One dose may provide weeks of relief by reshaping brain"
+  },
+  {
+    "id": "nimh--technology-and-the-future-of-mental-health-treatment",
+    "url": "https://www.nimh.nih.gov/health/topics/technology-and-the-future-of-mental-health-treatment",
+    "source": "NIMH",
+    "category": "Mental Health",
+    "title": "Technology and the Future of Mental Health Treatment"
+  },
+  {
+    "id": "office-on-women-s-health--depression",
+    "url": "https://womenshealth.gov/a-z-topics/depression",
+    "source": "Office on Women's Health",
+    "category": "Mental Health",
+    "title": "Depression"
+  },
+  {
+    "id": "sleep-foundation--mental-health",
+    "url": "https://www.sleepfoundation.org/mental-health",
+    "source": "Sleep Foundation",
+    "category": "Mental Health",
+    "title": "Mental Health and Sleep"
+  },
+  {
+    "id": "who--bipolar-disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder",
+    "source": "WHO",
+    "category": "Mental Health",
+    "title": "Bipolar disorder"
+  },
+  {
+    "id": "who--autism-spectrum-disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
+    "source": "WHO",
+    "category": "Mental Health",
+    "title": "Autism"
+  },
+  {
+    "id": "harvard-nutrition-source--sleep",
+    "url": "https://nutritionsource.hsph.harvard.edu/sleep/",
+    "source": "Harvard Nutrition Source",
+    "category": "Sleep Health",
+    "title": "Sleep"
+  },
+  {
+    "id": "healthline--how-much-sleep-you-need",
+    "url": "https://www.healthline.com/nutrition/how-much-sleep-you-need",
+    "source": "Healthline",
+    "category": "Sleep Health",
+    "title": "How Many Hours of Sleep Do You Really Need?"
+  },
+  {
+    "id": "healthychildren-aap--sleep-and-mental-health",
+    "url": "https://www.healthychildren.org/English/healthy-living/sleep/Pages/Sleep-and-Mental-Health.aspx",
+    "source": "HealthyChildren (AAP)",
+    "category": "Sleep Health",
+    "title": "Sleep and Health: Why Rest Matters for Your Child—and Your Whole Family"
+  },
+  {
+    "id": "medical-news-today--tart-cherry-juice-for-sleep",
+    "url": "https://www.medicalnewstoday.com/articles/tart-cherry-juice-for-sleep",
+    "source": "Medical News Today",
+    "category": "Sleep Health",
+    "title": "Tart cherry juice for sleep: Benefits and how to use it"
+  },
+  {
+    "id": "nhs--self-help-tips-to-fight-fatigue",
+    "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/self-help-tips-to-fight-fatigue/",
+    "source": "NHS",
+    "category": "Sleep Health",
+    "title": "Self-help tips to fight tiredness"
+  },
+  {
+    "id": "office-on-women-s-health--insomnia",
+    "url": "https://womenshealth.gov/a-z-topics/insomnia",
+    "source": "Office on Women's Health",
+    "category": "Sleep Health",
+    "title": "Insomnia"
+  },
+  {
+    "id": "sleep-foundation--bedroom-environment",
+    "url": "https://www.sleepfoundation.org/bedroom-environment",
+    "source": "Sleep Foundation",
+    "category": "Sleep Health",
+    "title": "Bedroom Environment: What Elements Are Important?"
+  },
+  {
+    "id": "sleep-foundation--sleep-hygiene",
+    "url": "https://www.sleepfoundation.org/sleep-hygiene",
+    "source": "Sleep Foundation",
+    "category": "Sleep Health",
+    "title": "Mastering Sleep Hygiene: Your Path to Quality Sleep"
+  },
+  {
+    "id": "cdc--index",
+    "url": "https://www.cdc.gov/heart-disease/risk-factors/index.html",
     "source": "CDC",
-    "category": "Nutrition"
+    "category": "Heart Health",
+    "title": "Heart Disease Risk Factors | Heart Disease"
   },
   {
-    "url": "https://www.cdc.gov/physical-activity-basics/benefits/index.html",
+    "id": "harvard-health--the-many-ways-exercise-helps-your-heart",
+    "url": "https://www.health.harvard.edu/heart-health/the-many-ways-exercise-helps-your-heart",
+    "source": "Harvard Health",
+    "category": "Heart Health",
+    "title": "The many ways exercise helps your heart"
+  },
+  {
+    "id": "harvard-nutrition-source--nuts-for-the-heart",
+    "url": "https://nutritionsource.hsph.harvard.edu/nuts-for-the-heart/",
+    "source": "Harvard Nutrition Source",
+    "category": "Heart Health",
+    "title": "Nuts for the Heart"
+  },
+  {
+    "id": "healthline--foods-high-blood-pressure",
+    "url": "https://www.healthline.com/nutrition/foods-high-blood-pressure",
+    "source": "Healthline",
+    "category": "Heart Health",
+    "title": "The 17 Best Foods to Lower Blood Pressure"
+  },
+  {
+    "id": "nhs--angina",
+    "url": "https://www.nhs.uk/conditions/angina/",
+    "source": "NHS",
+    "category": "Heart Health",
+    "title": "Angina"
+  },
+  {
+    "id": "niddk--how-to-treat-cardiovascular-disease-people-diabetes",
+    "url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/2025/04/how-to-treat-cardiovascular-disease-people-diabetes",
+    "source": "NIDDK",
+    "category": "Heart Health",
+    "title": "How To Treat Cardiovascular Disease in People with Diabetes - Blog"
+  },
+  {
+    "id": "office-on-women-s-health--varicose-veins-and-spider-veins",
+    "url": "https://womenshealth.gov/a-z-topics/varicose-veins-and-spider-veins",
+    "source": "Office on Women's Health",
+    "category": "Heart Health",
+    "title": "Varicose veins and spider veins"
+  },
+  {
+    "id": "who--cardiovascular-diseases-cvds",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "source": "WHO",
+    "category": "Heart Health",
+    "title": "Cardiovascular diseases (CVDs)"
+  },
+  {
+    "id": "harvard-nutrition-source--cancer",
+    "url": "https://nutritionsource.hsph.harvard.edu/cancer/",
+    "source": "Harvard Nutrition Source",
+    "category": "Common Diseases",
+    "title": "Cancer"
+  },
+  {
+    "id": "healthline--effects-on-body",
+    "url": "https://www.healthline.com/health/diabetes/effects-on-body",
+    "source": "Healthline",
+    "category": "Common Diseases",
+    "title": "The Effects of Diabetes on Your Body"
+  },
+  {
+    "id": "medical-news-today--how-makeup-affects-psoriasis",
+    "url": "https://www.medicalnewstoday.com/articles/how-makeup-affects-psoriasis",
+    "source": "Medical News Today",
+    "category": "Common Diseases",
+    "title": "Can makeup affect psoriasis? Tips for ingredients and application"
+  },
+  {
+    "id": "medlineplus--diabeticdiet",
+    "url": "https://medlineplus.gov/diabeticdiet.html",
+    "source": "MedlinePlus",
+    "category": "Common Diseases",
+    "title": "Diabetic Diet"
+  },
+  {
+    "id": "nhs--acute-kidney-injury",
+    "url": "https://www.nhs.uk/conditions/acute-kidney-injury/",
+    "source": "NHS",
+    "category": "Common Diseases",
+    "title": "Acute kidney injury (AKI)"
+  },
+  {
+    "id": "niddk--managing-diabetes",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+    "source": "NIDDK",
+    "category": "Common Diseases",
+    "title": "Managing Diabetes"
+  },
+  {
+    "id": "niddk--prediabetes-insulin-resistance",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/prediabetes-insulin-resistance",
+    "source": "NIDDK",
+    "category": "Common Diseases",
+    "title": "Insulin Resistance & Prediabetes"
+  },
+  {
+    "id": "office-on-women-s-health--autoimmune-diseases",
+    "url": "https://womenshealth.gov/a-z-topics/autoimmune-diseases",
+    "source": "Office on Women's Health",
+    "category": "Common Diseases",
+    "title": "Autoimmune diseases"
+  },
+  {
+    "id": "who--anaemia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+    "source": "WHO",
+    "category": "Common Diseases",
+    "title": "Anaemia"
+  },
+  {
+    "id": "healthline--headache",
+    "url": "https://www.healthline.com/health/headache",
+    "source": "Healthline",
+    "category": "Common Symptoms",
+    "title": "Headache Information, Causes, and Symptoms"
+  },
+  {
+    "id": "healthline--designing-your-expert-playbook-chronic-migraine-treatment",
+    "url": "https://www.healthline.com/health/migraine/designing-your-expert-playbook-chronic-migraine-treatment",
+    "source": "Healthline",
+    "category": "Common Symptoms",
+    "title": "Your Chronic Migraine Treatment Playbook"
+  },
+  {
+    "id": "medical-news-today--vomiting",
+    "url": "https://www.medicalnewstoday.com/articles/vomiting",
+    "source": "Medical News Today",
+    "category": "Common Symptoms",
+    "title": "Vomiting: Causes, medication, treatment, and more"
+  },
+  {
+    "id": "medical-news-today--what-causes-cramps",
+    "url": "https://www.medicalnewstoday.com/articles/what-causes-cramps",
+    "source": "Medical News Today",
+    "category": "Common Symptoms",
+    "title": "What causes cramps: Treatment, causes, prevention, and more"
+  },
+  {
+    "id": "niddk--symptoms-causes",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes",
+    "source": "NIDDK",
+    "category": "Common Symptoms",
+    "title": "Symptoms & Causes of Diabetes"
+  },
+  {
+    "id": "office-on-women-s-health--migraine",
+    "url": "https://womenshealth.gov/a-z-topics/migraine",
+    "source": "Office on Women's Health",
+    "category": "Common Symptoms",
+    "title": "Migraine"
+  },
+  {
+    "id": "office-on-women-s-health--bladder-pain",
+    "url": "https://womenshealth.gov/a-z-topics/bladder-pain",
+    "source": "Office on Women's Health",
+    "category": "Common Symptoms",
+    "title": "Bladder pain"
+  },
+  {
+    "id": "who--headache-disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+    "source": "WHO",
+    "category": "Common Symptoms",
+    "title": "Migraine and other headache disorders"
+  },
+  {
+    "id": "cdc--index-2",
+    "url": "https://www.cdc.gov/vaccines-adults/diseases/index.html",
     "source": "CDC",
-    "category": "Fitness"
+    "category": "Immunity & Prevention",
+    "title": "Vaccine-Preventable Adult Diseases | Adult Vaccines"
+  },
+  {
+    "id": "harvard-health--c-reactive-protein-should-healthy-people-be-tested-for-it",
+    "url": "https://www.health.harvard.edu/preventive-care/c-reactive-protein-should-healthy-people-be-tested-for-it",
+    "source": "Harvard Health",
+    "category": "Immunity & Prevention",
+    "title": "C-reactive protein: Should healthy people be tested for it?"
+  },
+  {
+    "id": "harvard-nutrition-source--nutrition-and-immunity",
+    "url": "https://nutritionsource.hsph.harvard.edu/nutrition-and-immunity/",
+    "source": "Harvard Nutrition Source",
+    "category": "Immunity & Prevention",
+    "title": "Nutrition and Immunity"
+  },
+  {
+    "id": "healthline--immune-boosting-supplements",
+    "url": "https://www.healthline.com/nutrition/immune-boosting-supplements",
+    "source": "Healthline",
+    "category": "Immunity & Prevention",
+    "title": "Can Supplements Fight Coronavirus (COVID-19)? 15 Immune Boosters"
+  },
+  {
+    "id": "healthychildren-aap--measles",
+    "url": "https://www.healthychildren.org/English/health-issues/vaccine-preventable-diseases/Pages/Measles.aspx",
+    "source": "HealthyChildren (AAP)",
+    "category": "Immunity & Prevention",
+    "title": "Measles: What Parents Need to Know"
+  },
+  {
+    "id": "medical-news-today--herd-immunity",
+    "url": "https://www.medicalnewstoday.com/articles/herd-immunity",
+    "source": "Medical News Today",
+    "category": "Immunity & Prevention",
+    "title": "Herd immunity: Definition, threshold, and examples"
+  },
+  {
+    "id": "who--immunization-coverage",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/immunization-coverage",
+    "source": "WHO",
+    "category": "Immunity & Prevention",
+    "title": "Immunization coverage"
+  },
+  {
+    "id": "who--antimicrobial-resistance",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+    "source": "WHO",
+    "category": "Immunity & Prevention",
+    "title": "Antimicrobial resistance"
+  },
+  {
+    "id": "american-heart-association--staying-hydrated-staying-healthy",
+    "url": "https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/staying-hydrated-staying-healthy",
+    "source": "American Heart Association",
+    "category": "Hydration",
+    "title": "Staying Hydrated, Staying Healthy"
+  },
+  {
+    "id": "harvard-nutrition-source--water",
+    "url": "https://nutritionsource.hsph.harvard.edu/water/",
+    "source": "Harvard Nutrition Source",
+    "category": "Hydration",
+    "title": "How Much Water Do You Need?"
+  },
+  {
+    "id": "harvard-nutrition-source--electrolyte-drinks",
+    "url": "https://nutritionsource.hsph.harvard.edu/electrolyte-drinks/",
+    "source": "Harvard Nutrition Source",
+    "category": "Hydration",
+    "title": "Do I need electrolyte drinks?"
+  },
+  {
+    "id": "healthline--19-hydrating-foods",
+    "url": "https://www.healthline.com/nutrition/19-hydrating-foods",
+    "source": "Healthline",
+    "category": "Hydration",
+    "title": "19 Water-Rich Foods That Help You Stay Hydrated"
+  },
+  {
+    "id": "healthline--how-much-water-should-you-drink-per-day",
+    "url": "https://www.healthline.com/nutrition/how-much-water-should-you-drink-per-day",
+    "source": "Healthline",
+    "category": "Hydration",
+    "title": "How Much Water Should You Drink a Day?"
+  },
+  {
+    "id": "healthline--how-to-tell-if-youre-dehydrated",
+    "url": "https://www.healthline.com/health/how-to-tell-if-youre-dehydrated",
+    "source": "Healthline",
+    "category": "Hydration",
+    "title": "How to Tell If You’re Dehydrated: Signs and Symptoms"
+  },
+  {
+    "id": "medical-news-today--hydrogen-water",
+    "url": "https://www.medicalnewstoday.com/articles/hydrogen-water",
+    "source": "Medical News Today",
+    "category": "Hydration",
+    "title": "Hydrogen water: Definition, benefits, and more"
+  },
+  {
+    "id": "who--drinking-water",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+    "source": "WHO",
+    "category": "Hydration",
+    "title": "Drinking-water"
+  },
+  {
+    "id": "harvard-health--healthy-breakfast-ideas-to-support-energy-and-metabolism",
+    "url": "https://www.health.harvard.edu/diet-and-nutrition/healthy-breakfast-ideas-to-support-energy-and-metabolism",
+    "source": "Harvard Health",
+    "category": "Weight Management",
+    "title": "Healthy breakfast ideas to support energy and metabolism"
+  },
+  {
+    "id": "harvard-nutrition-source--obesity",
+    "url": "https://nutritionsource.hsph.harvard.edu/obesity/",
+    "source": "Harvard Nutrition Source",
+    "category": "Weight Management",
+    "title": "Obesity"
+  },
+  {
+    "id": "healthline--what-is-food-freedom-getting-started-weight-loss-and-tips",
+    "url": "https://www.healthline.com/nutrition/what-is-food-freedom-getting-started-weight-loss-and-tips",
+    "source": "Healthline",
+    "category": "Weight Management",
+    "title": "What Is Food Freedom? Getting Started, Weight Loss, and Tips"
+  },
+  {
+    "id": "medical-news-today--how-much-protein-for-weight-loss",
+    "url": "https://www.medicalnewstoday.com/articles/how-much-protein-for-weight-loss",
+    "source": "Medical News Today",
+    "category": "Weight Management",
+    "title": "What are some high protein recipes to aid weight loss?"
+  },
+  {
+    "id": "nhs--overweight-and-obesity",
+    "url": "https://www.nhs.uk/conditions/overweight-and-obesity/",
+    "source": "NHS",
+    "category": "Weight Management",
+    "title": "Overweight and obesity in adults"
+  },
+  {
+    "id": "nia--maintaining-healthy-weight",
+    "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/maintaining-healthy-weight",
+    "source": "NIA",
+    "category": "Weight Management",
+    "title": "Maintaining a Healthy Weight"
+  },
+  {
+    "id": "niddk--staying-active-at-any-size",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/staying-active-at-any-size",
+    "source": "NIDDK",
+    "category": "Weight Management",
+    "title": "Staying Active at Any Size"
+  },
+  {
+    "id": "who--obesity-and-overweight",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+    "source": "WHO",
+    "category": "Weight Management",
+    "title": "Obesity and overweight"
+  },
+  {
+    "id": "healthline--bmi-for-black-women",
+    "url": "https://www.healthline.com/nutrition/bmi-for-black-women",
+    "source": "Healthline",
+    "category": "Women's Health",
+    "title": "Is BMI Accurate for Black Women?"
+  },
+  {
+    "id": "medical-news-today--contraceptives-that-prevent-stds",
+    "url": "https://www.medicalnewstoday.com/articles/contraceptives-that-prevent-stds",
+    "source": "Medical News Today",
+    "category": "Women's Health",
+    "title": "Contraceptives that prevent STIs: Types and how to use them"
+  },
+  {
+    "id": "niddk--diabetes-pregnancy",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes/diabetes-pregnancy",
+    "source": "NIDDK",
+    "category": "Women's Health",
+    "title": "Pregnancy if You Have Diabetes"
+  },
+  {
+    "id": "office-on-women-s-health--human-papillomavirus",
+    "url": "https://womenshealth.gov/a-z-topics/human-papillomavirus",
+    "source": "Office on Women's Health",
+    "category": "Women's Health",
+    "title": "Human papillomavirus"
+  },
+  {
+    "id": "sleep-foundation--women-sleep",
+    "url": "https://www.sleepfoundation.org/women-sleep",
+    "source": "Sleep Foundation",
+    "category": "Women's Health",
+    "title": "Women and Sleep: Needs, Disorders, and Recommendations"
+  },
+  {
+    "id": "sleep-foundation--how-is-sleep-different-for-men-and-women",
+    "url": "https://www.sleepfoundation.org/how-sleep-works/how-is-sleep-different-for-men-and-women",
+    "source": "Sleep Foundation",
+    "category": "Women's Health",
+    "title": "How Is Sleep Different For Men and Women?"
+  },
+  {
+    "id": "who--breast-cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
+    "source": "WHO",
+    "category": "Women's Health",
+    "title": "Breast cancer"
+  },
+  {
+    "id": "who--emergency-contraception",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "source": "WHO",
+    "category": "Women's Health",
+    "title": "Emergency contraception"
+  },
+  {
+    "id": "healthline--prostate-cancer",
+    "url": "https://www.healthline.com/health/prostate-cancer",
+    "source": "Healthline",
+    "category": "Men's Health",
+    "title": "Prostate Cancer: What You Need to Know"
+  },
+  {
+    "id": "healthline--testicular-cancer",
+    "url": "https://www.healthline.com/health/testicular-cancer",
+    "source": "Healthline",
+    "category": "Men's Health",
+    "title": "Testicular Cancer: Risk Factors, Symptoms, and Diagnosis"
+  },
+  {
+    "id": "healthline--mens-health",
+    "url": "https://www.healthline.com/health/mens-health",
+    "source": "Healthline",
+    "category": "Men's Health",
+    "title": "Men's Health: Everything You Need to Know"
+  },
+  {
+    "id": "healthline--average-weight-for-men",
+    "url": "https://www.healthline.com/health/mens-health/average-weight-for-men",
+    "source": "Healthline",
+    "category": "Men's Health",
+    "title": "Average Weight for Men: Age, Height, Body Composition, and More"
+  },
+  {
+    "id": "medical-news-today--prostatectomy-vs-radical-prostatectomy",
+    "url": "https://www.medicalnewstoday.com/articles/prostatectomy-vs-radical-prostatectomy",
+    "source": "Medical News Today",
+    "category": "Men's Health",
+    "title": "Simple vs radical prostatectomy: Purpose, techniques, and recovery"
+  },
+  {
+    "id": "medical-news-today--ablation-for-prostate-cancer",
+    "url": "https://www.medicalnewstoday.com/articles/ablation-for-prostate-cancer",
+    "source": "Medical News Today",
+    "category": "Men's Health",
+    "title": "Prostate ablation for cancer: Overview and how to prepare"
+  },
+  {
+    "id": "nhs--enlarged-prostate",
+    "url": "https://www.nhs.uk/conditions/enlarged-prostate/",
+    "source": "NHS",
+    "category": "Men's Health",
+    "title": "Enlarged prostate"
+  },
+  {
+    "id": "nhs--erection-problems-erectile-dysfunction",
+    "url": "https://www.nhs.uk/conditions/erection-problems-erectile-dysfunction/",
+    "source": "NHS",
+    "category": "Men's Health",
+    "title": "Erectile dysfunction (impotence)"
+  },
+  {
+    "id": "harvard-nutrition-source--healthy-child-care",
+    "url": "https://nutritionsource.hsph.harvard.edu/healthy-child-care/",
+    "source": "Harvard Nutrition Source",
+    "category": "Child Health",
+    "title": "Healthy Child Care Settings"
+  },
+  {
+    "id": "healthline--tips-get-your-kids-sleep",
+    "url": "https://www.healthline.com/health/tips-get-your-kids-sleep",
+    "source": "Healthline",
+    "category": "Child Health",
+    "title": "10 Tips to Get Your Kids to Sleep"
+  },
+  {
+    "id": "healthychildren-aap--healthy-mental-and-emotional-development-in-children-key-bui",
+    "url": "https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/healthy-mental-and-emotional-development-in-children-key-building-blocks.aspx",
+    "source": "HealthyChildren (AAP)",
+    "category": "Child Health",
+    "title": "Healthy Mental & Emotional Development: 4 Key Building Blocks"
+  },
+  {
+    "id": "medical-news-today--looking-after-a-child-with-t1-diabetes",
+    "url": "https://www.medicalnewstoday.com/articles/looking-after-a-child-with-t1-diabetes",
+    "source": "Medical News Today",
+    "category": "Child Health",
+    "title": "Looking after a child with type 1 diabetes: What to expect"
+  },
+  {
+    "id": "nhs--is-my-child-too-ill-for-school",
+    "url": "https://www.nhs.uk/live-well/is-my-child-too-ill-for-school/",
+    "source": "NHS",
+    "category": "Child Health",
+    "title": "Is my child too ill for school?"
+  },
+  {
+    "id": "sleep-foundation--children-and-sleep",
+    "url": "https://www.sleepfoundation.org/children-and-sleep",
+    "source": "Sleep Foundation",
+    "category": "Child Health",
+    "title": "Children and Sleep: Healthy Sleep Habits for Kids"
+  },
+  {
+    "id": "who--adolescent-mental-health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "source": "WHO",
+    "category": "Child Health",
+    "title": "Mental health of adolescents"
+  },
+  {
+    "id": "who--adolescents-health-risks-and-solutions",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+    "source": "WHO",
+    "category": "Child Health",
+    "title": "Adolescent and young adult health"
+  },
+  {
+    "id": "harvard-health--the-5-pillars-of-longevity-movement-nutrition-sleep-stress-r",
+    "url": "https://www.health.harvard.edu/healthy-aging-and-longevity/the-5-pillars-of-longevity-movement-nutrition-sleep-stress-reduction-and-social-connection",
+    "source": "Harvard Health",
+    "category": "Senior Health",
+    "title": "The 5 pillars of longevity: Movement, nutrition, sleep, stress reduction, and social connection"
+  },
+  {
+    "id": "harvard-nutrition-source--healthy-longevity",
+    "url": "https://nutritionsource.hsph.harvard.edu/healthy-longevity/",
+    "source": "Harvard Nutrition Source",
+    "category": "Senior Health",
+    "title": "Healthy Longevity"
+  },
+  {
+    "id": "medical-news-today--several-sugar-substitutes-linked-faster-cognitive-decline-th",
+    "url": "https://www.medicalnewstoday.com/articles/several-sugar-substitutes-linked-faster-cognitive-decline-thinking-memory-aging",
+    "source": "Medical News Today",
+    "category": "Senior Health",
+    "title": "Common artificial sweeteners may age the brain by 1.6 years"
+  },
+  {
+    "id": "nhs--alzheimers-disease",
+    "url": "https://www.nhs.uk/conditions/alzheimers-disease/",
+    "source": "NHS",
+    "category": "Senior Health",
+    "title": "Alzheimer's disease"
+  },
+  {
+    "id": "niddk--health-tips-for-older-adults",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-older-adults",
+    "source": "NIDDK",
+    "category": "Senior Health",
+    "title": "Health Tips for Older Adults"
+  },
+  {
+    "id": "office-on-women-s-health--caregiver-stress",
+    "url": "https://womenshealth.gov/a-z-topics/caregiver-stress",
+    "source": "Office on Women's Health",
+    "category": "Senior Health",
+    "title": "Caregiver stress"
+  },
+  {
+    "id": "sleep-foundation--aging-and-sleep",
+    "url": "https://www.sleepfoundation.org/aging-and-sleep",
+    "source": "Sleep Foundation",
+    "category": "Senior Health",
+    "title": "Aging and Sleep: How Does Growing Old Affect Sleep?"
+  },
+  {
+    "id": "who--dementia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "source": "WHO",
+    "category": "Senior Health",
+    "title": "Dementia"
+  },
+  {
+    "id": "healthline--digestive-health",
+    "url": "https://www.healthline.com/health/digestive-health",
+    "source": "Healthline",
+    "category": "Digestive Health",
+    "title": "Digestive Health - Digestive Tract, Accessory Organs, Motility"
+  },
+  {
+    "id": "healthline--irritable-bowel-syndrome",
+    "url": "https://www.healthline.com/health/irritable-bowel-syndrome",
+    "source": "Healthline",
+    "category": "Digestive Health",
+    "title": "Irritable Bowel Syndrome: Symptoms, Causes, and More"
+  },
+  {
+    "id": "medical-news-today--irritable-bowel-syndrome-autism",
+    "url": "https://www.medicalnewstoday.com/articles/irritable-bowel-syndrome-autism",
+    "source": "Medical News Today",
+    "category": "Digestive Health",
+    "title": "Irritable bowel syndrome and autism: Link and treatment"
+  },
+  {
+    "id": "medical-news-today--eating-after-9-pm-stress-late-night-snacking-may-multiply-gu",
+    "url": "https://www.medicalnewstoday.com/articles/eating-after-9-pm-stress-late-night-snacking-may-multiply-gut-health-risks-microbiome",
+    "source": "Medical News Today",
+    "category": "Digestive Health",
+    "title": "How stress and late-night eating may be ruining your gut health"
+  },
+  {
+    "id": "nhs--coeliac-disease",
+    "url": "https://www.nhs.uk/conditions/coeliac-disease/",
+    "source": "NHS",
+    "category": "Digestive Health",
+    "title": "Coeliac disease"
+  },
+  {
+    "id": "niddk--digestive-system-how-it-works",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "source": "NIDDK",
+    "category": "Digestive Health",
+    "title": "Your Digestive System & How it Works"
+  },
+  {
+    "id": "office-on-women-s-health--inflammatory-bowel-disease",
+    "url": "https://womenshealth.gov/a-z-topics/inflammatory-bowel-disease",
+    "source": "Office on Women's Health",
+    "category": "Digestive Health",
+    "title": "Inflammatory bowel disease"
+  },
+  {
+    "id": "who--diarrhoeal-disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+    "source": "WHO",
+    "category": "Digestive Health",
+    "title": "Diarrhoeal disease"
+  },
+  {
+    "id": "harvard-nutrition-source--oral-health",
+    "url": "https://nutritionsource.hsph.harvard.edu/oral-health/",
+    "source": "Harvard Nutrition Source",
+    "category": "Lifestyle & Wellness",
+    "title": "Oral Health"
+  },
+  {
+    "id": "healthline--effects-on-body-2",
+    "url": "https://www.healthline.com/health/alcohol/effects-on-body",
+    "source": "Healthline",
+    "category": "Lifestyle & Wellness",
+    "title": "Effects of Alcohol on the Body"
+  },
+  {
+    "id": "healthline--effects-on-body-3",
+    "url": "https://www.healthline.com/health/smoking/effects-on-body",
+    "source": "Healthline",
+    "category": "Lifestyle & Wellness",
+    "title": "Health Effects of Smoking on Your Body"
+  },
+  {
+    "id": "medical-news-today--smoking-addiction",
+    "url": "https://www.medicalnewstoday.com/articles/smoking-addiction",
+    "source": "Medical News Today",
+    "category": "Lifestyle & Wellness",
+    "title": "Smoking addiction: Research and more"
+  },
+  {
+    "id": "medical-news-today--what-happens-when-you-quit-smoking-and-start-vaping",
+    "url": "https://www.medicalnewstoday.com/articles/what-happens-when-you-quit-smoking-and-start-vaping",
+    "source": "Medical News Today",
+    "category": "Lifestyle & Wellness",
+    "title": "What happens when you quit smoking and start vaping?"
+  },
+  {
+    "id": "nhs--nhs-stop-smoking-services-help-you-quit",
+    "url": "https://www.nhs.uk/live-well/quit-smoking/nhs-stop-smoking-services-help-you-quit/",
+    "source": "NHS",
+    "category": "Lifestyle & Wellness",
+    "title": "NHS stop smoking services help you quit"
+  },
+  {
+    "id": "office-on-women-s-health--oral-health",
+    "url": "https://womenshealth.gov/a-z-topics/oral-health",
+    "source": "Office on Women's Health",
+    "category": "Lifestyle & Wellness",
+    "title": "Oral health"
+  },
+  {
+    "id": "who--tobacco",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+    "source": "WHO",
+    "category": "Lifestyle & Wellness",
+    "title": "Tobacco and nicotine"
   }
 ]

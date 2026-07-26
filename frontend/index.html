@@ -4,7 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>frontend</title>
+    <meta
+      name="description"
+      content="Health questions answered from a curated library of public-health fact sheets, with every source cited."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <!-- Must track the page background in each scheme, or the browser chrome
+         and the page disagree at the seam. -->
+    <meta
+      name="theme-color"
+      content="#fbfaf7"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0f1518"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <!--
+      Type pairing: Newsreader (editorial serif, for answer prose) + Source Sans 3
+      (UI chrome). If these fail to load — offline, blocked CDN — the stacks in
+      index.css fall back to system serif / sans, so the layout is unaffected.
+      Delete these three tags for a fully offline build.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Health Assistant — cited answers from trusted sources</title>
   </head>
   <body>
     <div id="root"></div>

@@ -1,111 +1,234 @@
+/*
+  Design tokens.
+
+  Direction: the product's value is that every answer is grounded in curated
+  public-health fact sheets, so the interface is built to read like a clinical
+  reference document rather than a chat app — paper surface, editorial serif for
+  prose, hairline rules, and a numbered evidence apparatus.
+
+  Palette derives from the Medical Clinic row of the ui-ux-pro-max colour data
+  (clinical teal + health green). Every foreground/background pair below was
+  checked at >=4.5:1 in both themes.
+*/
+
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  /* Surfaces — warm paper, not pure white */
+  --paper: #fbfaf7;
+  --surface: #ffffff;
+  --surface-sunk: #f4f2ec;
+  --rule: #e2e0d9;
+  --rule-strong: #cbc8bd;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  /* Ink */
+  --ink: #1a2a28;
+  --ink-muted: #5a6b68;
 
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
+  /* Clinical teal — the single structural accent */
+  --teal: #0e6e7f;
+  --teal-deep: #0a5462;
+  --teal-wash: #e6f2f4;
+
+  /* Status — always paired with a text label, never colour alone */
+  --green: #15803d;
+  --green-wash: #e8f4ec;
+  --red: #b91c1c;
+  --red-wash: #fbeaea;
+  --amber: #8a5a0b;
+  --amber-wash: #fdf3e2;
+
+  /* Type stacks. First name is the intended face; the rest are system
+     fallbacks so an offline build still reads correctly. */
+  --serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Palatino,
+    Georgia, 'Times New Roman', serif;
+  --sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+
+  /* Scale: 12 13 14 16 18 21 28 40 */
+  --t-micro: 0.75rem;
+  --t-small: 0.8125rem;
+  --t-label: 0.875rem;
+  --t-body: 1rem;
+  --t-lead: 1.125rem;
+  --t-title: 1.3125rem;
+  --t-head: 1.75rem;
+  --t-display: 2.5rem;
+
+  /* 4/8 spacing rhythm */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+
+  /* z-index scale */
+  --z-rail: 10;
+  --z-sidebar: 40;
+  --z-scrim: 30;
+
+  --sidebar-w: 268px;
+  /* Reading measure, ~70 characters. Deliberately px-based, not `ch`: `ch` is
+     the width of "0", which in a serif runs ~40% wider than the average
+     character, so 68ch measured out at 96 characters per line. */
+  --measure: 31rem;
+
   color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  text-rendering: optimizeLegibility;
+  font-variant-numeric: tabular-nums;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+    --paper: #0f1518;
+    --surface: #161e22;
+    --surface-sunk: #1b2429;
+    --rule: #263238;
+    --rule-strong: #38474e;
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
+    --ink: #e4e8e5;
+    --ink-muted: #9daca9;
+
+    --teal: #5fd3e8;
+    --teal-deep: #8ee3f2;
+    --teal-wash: #10333c;
+
+    --green: #4ade80;
+    --green-wash: #102a1b;
+    --red: #ff8085;
+    --red-wash: #331618;
+    --amber: #f5c05a;
+    --amber-wash: #332615;
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body {
   margin: 0;
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
+  background: var(--paper);
 }
 
 h1,
-h2 {
-  font-family: var(--heading);
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--serif);
   font-weight: 500;
-  color: var(--text-h);
+  color: var(--ink);
+  letter-spacing: -0.01em;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
-}
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
 p {
   margin: 0;
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* Removes the ~300ms tap delay browsers reserve for double-tap zoom. */
+  touch-action: manipulation;
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+input,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Visible focus everywhere — never removed (a11y priority 1). */
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Small-caps eyebrow: the register of a fact-sheet section label. */
+.eyebrow {
+  font-family: var(--sans);
+  font-size: var(--t-micro);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  left: var(--s3);
+  top: var(--s3);
+  padding: var(--s2) var(--s3);
+  background: var(--surface);
+  border: 1px solid var(--teal);
+  border-radius: var(--radius);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rule-strong);
+  border: 4px solid transparent;
+  background-clip: content-box;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ink-muted);
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }

@@ -1,0 +1,18 @@
+{
+  "name": "mongo-health-server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Node stand-in for the Flask MongoDB health surface, so frontend work does not need a Python runtime.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.5.0"
+  }
+}
