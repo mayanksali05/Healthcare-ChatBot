@@ -64,5 +64,135 @@
     "url": "https://www.cdc.gov/physical-activity-basics/benefits/index.html",
     "source": "CDC",
     "category": "Fitness"
+  },
+  {
+  "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/eating-a-balanced-diet/",
+  "source": "NHS",
+  "category": "General Health"
+  },
+  {
+  "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/how-to-lose-weight-in-a-wheelchair/",
+  "source": "NHS",
+  "category": "General Health"
+  },
+  {
+  "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/healthy-eating-you-age-know-your-food-groups",
+  "source": "NIH",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.nia.nih.gov/health/vitamins-and-supplements/dietary-supplements-older-adults",
+  "source": "NIH",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/healthy-eating-you-age-know-your-food-groups",
+  "source": "NIH",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.nia.nih.gov/health/healthy-eating-nutrition-and-diet/overcoming-roadblocks-healthy-eating",
+  "source": "NIH",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/best-diet-plans",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/best-diet-for-women-over-50",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/best-diets-for-men",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/mediterranean-diet-meal-plan",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/paleo-diet-meal-plan-and-menu#meal-plan",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/dash-diet#what-it-is",
+  "source": "Healthline",
+  "category": "Healthy Diet"
+  },
+  {
+  "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-qa-what-are-prebiotics-and-probiotics/",
+  "source": "Mayo Clinic",
+  "category": "Healthy Food"
+  },
+  {
+  "url": "https://newsnetwork.mayoclinic.org/discussion/get-to-know-your-microbiome-it-can-improve-gut-health-and-more-mayo-clinic-expert-explains/",
+  "source": "Mayo Clinic",
+  "category": "Healthy Food"
+  },
+  {
+  "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-qa-health-benefits-of-counting-steps/",
+  "source": "Mayo Clinic",
+  "category": "Fitness"
+  },
+  {
+  "url": "https://newsnetwork.mayoclinic.org/discussion/readymayo-clinic-q-and-a-water-fitness-why-aqua-exercise-works-wonders/",
+  "source": "Mayo Clinic",
+  "category": "Fitness"
+  },
+  {
+  "url": "https://newsinhealth.nih.gov/2020/07/personalized-exercise",
+  "source": "NIH",
+  "category": "Fitness"
+  },
+  {
+  "url": "https://newsinhealth.nih.gov/2019/07/rough-up-your-diet",
+  "source": "NIH",
+  "category": "Fitness"
+  },
+  {
+  "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-older-adults",
+  "source": "NIH",
+  "category": "Fitness"
+  },
+  {
+  "url": "https://www.cdc.gov/sleeping-sickness/about/",
+  "source": "CDC",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.nhlbi.nih.gov/about/divisions/division-lung-diseases/national-center-sleep-disorders-research",
+  "source": "NIH",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.nhlbi.nih.gov/health/sleep/why-sleep-important",
+  "source": "NIH",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.healthline.com/health/healthy-sleep",
+  "source": "Healthline",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.healthline.com/nutrition/17-tips-to-sleep-better",
+  "source": "Healthline",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.healthline.com/health/healthy-sleep/fall-asleep-fast#120-seconds",
+  "source": "Healthline",
+  "category": "Sleep Health"
+  },
+  {
+  "url": "https://www.healthline.com/health/sleep/sleep-calculator#not-enough-sleep",
+  "source": "Healthline",
+  "category": "Sleep Health"
   }
 ]
